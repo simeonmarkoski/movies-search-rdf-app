@@ -269,7 +269,6 @@ const App = () => {
         )}
       </div>
       <div className="content">
-        {/* Content for each page (Movies, Actors, Directors) can be added here. */}
         {selectedPage === "Movies" && (
           <> {loading ? (
             <div className="loading-bar">Loading...</div>
