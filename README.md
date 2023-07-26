@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# Movie Search App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Screenshot](screenshot.png)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [About](#about)
+- [Demo](#demo)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+- [Usage](#usage)
+- [Running the Server](#running-the-server)
+- [Data Source](#data-source)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Movie Search App is a web application that allows users to search for movies, actors, and directors. It provides a simple and intuitive interface to explore information from DBpedia, a crowd-sourced knowledge graph containing structured information about various entities.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Main features of the Movie Search App:
+- Search for movies, actors, and directors.
+- View detailed information about each movie, including its cast and crew.
+- Discover related movies, actors, and directors.
+- Explore rich metadata and interesting facts about movies and individuals.
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can access a live demo of the Movie Search App at [https://your-demo-url.com](https://your-demo-url.com).
 
-### `npm run build`
+Please note that the demo may not contain the latest data and features and is for illustrative purposes only.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Before running the Movie Search App, make sure you have the following software installed:
 
-### `npm run eject`
+- [Node.js](https://nodejs.org) (version X.X.X or higher)
+- [npm](https://www.npmjs.com/get-npm) (version X.X.X or higher)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Follow these steps to set up the project locally:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/simeonmarkoski/movies-search-rdf-app.git
+```
 
-## Learn More
+2. Change directory:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd movie-search-app
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install dependencies:
 
-### Code Splitting
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Usage
 
-### Analyzing the Bundle Size
+To start the Movie Search App, run the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+```
 
-### Making a Progressive Web App
+This will launch the app on http://localhost:3000 in your web browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Use the search bar to look up movies, actors, or directors. Click on the search results to view detailed information about each entity. The app provides an interactive and engaging way to explore the world of movies and the people behind them.
 
-### Advanced Configuration
+### Running the Server
+The Movie Search App interacts with DBpedia to fetch data. To run the server that connects to DBpedia, use the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+node server.js
+```
 
-### Deployment
+This will start the server on http://localhost:5000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Please ensure that the server is running before using the app.
 
-### `npm run build` fails to minify
+### Data Source
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Movie Search App retrieves information from DBpedia, a community-driven project that extracts structured content from Wikipedia and makes it available as a knowledge graph. DBpedia covers various domains, including movies, actors, directors, and more. The app utilizes this data to provide users with valuable insights into the entertainment industry.
+
+### Contributing
+
+We welcome contributions from the community! If you want to contribute to this project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: <b>\`git checkout -b feature/your-feature-name\`</b>.
+3. Make your changes and commit them: <b>\`git commit -m 'Add some feature'\`</b>.
+4. Push to the branch: <b>\`git push origin feature/your-feature-name\`</b>.
+5. Open a pull request and describe your changes.
+
+Please read our Contribution Guidelines for more details.
+
+### License
+This project is licensed under the <u><b>MIT License</b></u>.
+
+### Contact
+
+For any questions or feedback, feel free to reach out to us:
+
+- Your Name: [simeonmarkoski10@gmail.com](mailto:simeonmarkoski10@gmail.com)
+- Project Repository: [https://github.com/simeonmarkoski/movies-search-rdf-app](https://github.com/simeonmarkoski/movies-search-rdf-app)
+- Issue Tracker: [https://github.com/simeonmarkoski/movies-search-rdf-app/issues](https://github.com/simeonmarkoski/movies-search-rdf-app/issues)
