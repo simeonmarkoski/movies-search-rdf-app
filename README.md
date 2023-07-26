@@ -5,7 +5,6 @@
 ## Table of Contents
 
 - [About](#about)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
@@ -26,20 +25,14 @@ Main features of the Movie Search App:
 - Discover related movies, actors, and directors.
 - Explore rich metadata and interesting facts about movies and individuals.
 
-## Demo
-
-You can access a live demo of the Movie Search App at [https://your-demo-url.com](https://your-demo-url.com).
-
-Please note that the demo may not contain the latest data and features and is for illustrative purposes only.
-
 ## Getting Started
 
 ### Prerequisites
 
 Before running the Movie Search App, make sure you have the following software installed:
 
-- [Node.js](https://nodejs.org) (version X.X.X or higher)
-- [npm](https://www.npmjs.com/get-npm) (version X.X.X or higher)
+- [Node.js](https://nodejs.org) (version 18.17.0 or higher)
+- [npm](https://www.npmjs.com/get-npm) (version 9.6.7 or higher)
 
 ### Installation
 
